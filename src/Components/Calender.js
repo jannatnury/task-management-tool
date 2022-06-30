@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Products = () => {
+const Calender = () => {
     return (
         <div>
-            <h2>Products</h2>
+            <h1>calender</h1>
         </div>
     );
 };
 
-export default Products;
+export default Calender;
