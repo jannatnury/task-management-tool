@@ -11,7 +11,7 @@ const Navbar = ({ children }) => {
 
         {/* <!-- Navbar --> */}
 
-        <div className="w-full navbar bg-info">
+        <div className="w-full navbar bg-neutral">
           <div className="flex-1 px-2 mx-2 text-3xl text-red-600">
             <Link to="/">Task Manager</Link>
           </div>
@@ -22,7 +22,7 @@ const Navbar = ({ children }) => {
           </div>
 
           <div className="flex-none hidden lg:block">
-            <ul className="menu menu-horizontal">
+            <ul className="menu text-white menu-horizontal">
 
               {/* <!-- Navbar menu content here --> */}
 
@@ -50,7 +50,7 @@ const Navbar = ({ children }) => {
       </div>
       <div className="drawer-side">
         <label for="my-drawer-3" className="drawer-overlay"></label>
-        <ul className="menu p-4 overflow-y-auto w-80 bg-base-100">
+        <ul className="menu p-4 overflow-y-auto w-80 text-white bg-gray-300">
           {/* <!-- Sidebar content here --> */}
           <li>
             <Link to="/" >
