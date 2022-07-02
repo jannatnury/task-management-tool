@@ -27,7 +27,7 @@ const Navbar = ({ children }) => {
               {/* <!-- Navbar menu content here --> */}
 
               <li>
-                <Link to="/" >
+                <Link to="/completed" >
                   Completed Tasks
                 </Link>
               </li>
@@ -53,7 +53,7 @@ const Navbar = ({ children }) => {
         <ul className="menu p-4 overflow-y-auto w-80 text-white bg-gray-300">
           {/* <!-- Sidebar content here --> */}
           <li>
-            <Link to="/" >
+            <Link to="/completed" >
               Completed Tasks
             </Link>
           </li>
