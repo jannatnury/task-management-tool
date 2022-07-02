@@ -22,21 +22,27 @@ const CompletedTasks = () => {
                             <th>1</th>
                             <td>Task 1</td>
                             <td>Date</td>
-                            <td>Blue</td>
+                            <td>
+                            <button class="btn btn-ghost btn-xs">Delete</button>
+                            </td>
                         </tr>
                         {/* <!-- row 2 --> */}
                         <tr class="active">
                             <th>2</th>
                             <td>Task 2</td>
                             <td>Date</td>
-                            <td>Delete</td>
+                            <td>
+                            <button class="btn btn-ghost btn-xs">Delete</button>
+                            </td>
                         </tr>
                         {/* <!-- row 3 --> */}
                         <tr>
                             <th>3</th>
                             <td>Task 3</td>
                             <td>Date</td>
-                            <td>Detete</td>
+                            <td>
+                            <button class="btn btn-ghost btn-xs">Delete</button>
+                            </td>
                         </tr>
                     </tbody>
                 </table>
